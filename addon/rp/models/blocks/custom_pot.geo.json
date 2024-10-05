@@ -1,0 +1,165 @@
+{
+	"format_version": "1.21.30",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mkt.custom_pot",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "pot",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-3, 0, -3],
+							"size": [6, 6, 6],
+							"uv": {
+								"north": {"uv": [5, 10], "uv_size": [6, 6], "material_instance": "pot_base"},
+								"east": {"uv": [5, 10], "uv_size": [6, 6], "material_instance": "pot_base"},
+								"south": {"uv": [5, 10], "uv_size": [6, 6], "material_instance": "pot_base"},
+								"west": {"uv": [5, 10], "uv_size": [6, 6], "material_instance": "pot_base"},
+								"up": {"uv": [11, 11], "uv_size": [-6, -6], "material_instance": "pot_base"},
+								"down": {"uv": [11, 16], "uv_size": [-6, -6], "material_instance": "pot_base"}
+							}
+						},
+						{
+							"origin": [-2, 1, -2],
+							"size": [4, 5, 4],
+							"uv": {
+								"north": {"uv": [5, 10], "uv_size": [6, 6], "material_instance": "pot_base"},
+								"east": {"uv": [5, 10], "uv_size": [6, 6], "material_instance": "pot_base"},
+								"south": {"uv": [5, 10], "uv_size": [6, 6], "material_instance": "pot_base"},
+								"west": {"uv": [5, 10], "uv_size": [6, 6], "material_instance": "pot_base"},
+								"down": {"uv": [11, 16], "uv_size": [-6, -6], "material_instance": "pot_base"}
+							}
+						},
+						{
+							"origin": [-2, 1, -2],
+							"size": [4, 4, 4],
+							"uv": {
+								"up": {"uv": [4, 16], "uv_size": [-4, -4], "material_instance": "dirt_up"}
+							}
+						}
+					]
+				},
+				{
+					"name": "plant",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 90, 0],
+					"cubes": [
+						{
+							"origin": [0, 5, -8],
+							"size": [0, 11, 16],
+							"pivot": [0, 0, 0],
+							"rotation": [0, 45, 0],
+							"uv": {
+								"east": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "plant"}
+							}
+						},
+						{
+							"origin": [0, 5, -8],
+							"size": [0, 11, 16],
+							"pivot": [0, 0, 0],
+							"rotation": [0, -45, 0],
+							"uv": {
+								"east": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "plant"}
+							}
+						}
+					]
+				},
+				{
+					"name": "azalea",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-4, 8, -4],
+							"size": [8, 8, 8],
+							"uv": {
+								"north": {"uv": [4, 4], "uv_size": [8, 8], "material_instance": "azalea_side"},
+								"east": {"uv": [4, 4], "uv_size": [8, 8], "material_instance": "azalea_side"},
+								"south": {"uv": [4, 4], "uv_size": [8, 8], "material_instance": "azalea_side"},
+								"west": {"uv": [4, 4], "uv_size": [8, 8], "material_instance": "azalea_side"},
+								"up": {"uv": [12, 12], "uv_size": [-8, -8], "material_instance": "azalea_up"}
+							}
+						},
+						{
+							"origin": [0, 5, -8],
+							"size": [0, 11, 16],
+							"pivot": [0, 0, 0],
+							"rotation": [0, 45, 0],
+							"uv": {
+								"east": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "azalea_plant"}
+							}
+						},
+						{
+							"origin": [0, 5, -8],
+							"size": [0, 11, 16],
+							"pivot": [0, 0, 0],
+							"rotation": [0, -45, 0],
+							"uv": {
+								"east": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "azalea_plant"}
+							}
+						}
+					]
+				},
+				{
+					"name": "cactus",
+					"pivot": [1, 0, -1],
+					"cubes": [
+						{
+							"origin": [-2, 5, -2],
+							"size": [4, 10, 4],
+							"uv": {
+								"north": {"uv": [6, 4], "uv_size": [4, 10], "material_instance": "cactus_side"},
+								"east": {"uv": [6, 4], "uv_size": [4, 10], "material_instance": "cactus_side"},
+								"south": {"uv": [6, 4], "uv_size": [4, 10], "material_instance": "cactus_side"},
+								"west": {"uv": [6, 4], "uv_size": [4, 10], "material_instance": "cactus_side"},
+								"up": {"uv": [10, 10], "uv_size": [-4, -4], "material_instance": "cactus_top"}
+							}
+						}
+					]
+				},
+				{
+					"name": "bamboo",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-1, 5, -1],
+							"size": [2, 11, 2],
+							"uv": {
+								"north": {"uv": [6, 0], "uv_size": [2, 11], "material_instance": "bamboo_side"},
+								"east": {"uv": [6, 0], "uv_size": [2, 11], "material_instance": "bamboo_side"},
+								"south": {"uv": [6, 0], "uv_size": [2, 11], "material_instance": "bamboo_side"},
+								"west": {"uv": [6, 0], "uv_size": [2, 11], "material_instance": "bamboo_side"},
+								"up": {"uv": [15, 2], "uv_size": [-2, -2], "material_instance": "bamboo_top"}
+							}
+						},
+						{
+							"origin": [0, 2, -8],
+							"size": [0, 16, 16],
+							"pivot": [0, 0, 0],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"east": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "bamboo_leaf"}
+							}
+						}
+					]
+				}
+			],
+			"item_display_transforms": {
+				"thirdperson_righthand": {
+					"rotation": [0, 0, 0],
+					"translation": [0, 0, 0],
+					"scale": [1, 1, 1],
+					"rotation_pivot": [0, 0, 0],
+					"scale_pivot": [0, 0, 0]
+				}
+			}
+		}
+	]
+}

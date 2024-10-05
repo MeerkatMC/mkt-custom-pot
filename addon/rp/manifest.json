@@ -1,0 +1,21 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Custom Pot Example",
+		"description": "Custom Pot Resource Pack (v1.0.0)",
+		"uuid": "7c12a3a0-1ea0-4f32-b23f-fa5b8a642bc6",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 21, 30]
+	},
+	"metadata": {
+		"authors": ["Meerkat"]
+	},
+	"modules": [
+		{
+			"description": "Custom Pot",
+			"type": "resources",
+			"uuid": "47537476-75a8-419a-87bb-446d672ac34d",
+			"version": [1, 0, 0]
+		}
+	]
+}

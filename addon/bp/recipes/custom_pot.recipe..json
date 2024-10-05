@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "mkt:custom_pot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:string"
+			},
+			{
+				"item": "minecraft:flower_pot"
+			}
+		],
+		"result": [
+			{
+				"item": "mkt:custom_pot_placer"
+			}
+		]
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"mkt:custom_pot": {
+			"textures": "textures/blocks/custom_pot.png"
+		},
+		"mkt:potted_fern": {
+			"textures": {
+				"path": "textures/blocks/fern",
+				"tint_color": "#2f9629"
+			}
+		}
+	}
+}
