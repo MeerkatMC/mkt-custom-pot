@@ -1,9 +1,9 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "Custom Pot Example",
-		"description": "Coloured Pots BP (v1.0.0)",
-		"uuid": "bb044974-604f-4ae1-b463-243c3734549d",
+		"name": "Custom Pot Example BP",
+		"description": "Custom Pot Example BP (v1.0.0)",
+		"uuid": "ad45598e-3cee-43cb-825f-3f4f03b71e1d",
 		"version": [1, 0, 0],
 		"min_engine_version": [1, 21, 20]
 	},
@@ -14,21 +14,21 @@
 		{
 			"description": "Behavior",
 			"version": [1, 0, 0],
-			"uuid": "b3e18d4f-e675-493c-b1ba-455a98030692",
+			"uuid": "6668ec9b-98f6-40af-bf6d-ee8e5251ea5e",
 			"type": "data"
 		},
 		{
 			"description": "Script resources",
 			"language": "javascript",
 			"type": "script",
-			"uuid": "9ccf3c58-4312-4095-b199-ef7fa659582a",
+			"uuid": "feb4b961-27d1-442d-b18a-9ce84dad75f5",
 			"version": [1, 0, 0],
 			"entry": "scripts/main.js"
 		}
 	],
 	"dependencies": [
 		{
-			"uuid": "7c12a3a0-1ea0-4f32-b23f-fa5b8a642bc6",
+			"uuid": "a16fad97-9104-4d6f-8e64-3bf05db9b625",
 			"version": [1, 0, 0]
 		},
 		{
