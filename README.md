@@ -4,7 +4,7 @@ This example bedrock addon provides a "red" variant to the vanilla "Flower Pot"
 # Crafting
 To craft the example pot you can use a vanilla flower pot and a piece of string.
 
-# Featues
+# Features
 - Placing an item into the pot
 - hot swapping the item in a pot
 - removing current item from the pot (using an open hand)
