@@ -7,7 +7,7 @@ and supports multiple instances of the "DisplayItem" class.
 # Crafting
 To craft the example pot you can use a vanilla flower pot and a piece of string.
 
-# Featues
+# Features
 - Placing an item into the DisplayItem
 - hot swapping the item in a pot
 - removing current item from the pot (using an open hand)
