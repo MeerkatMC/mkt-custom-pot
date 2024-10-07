@@ -1,15 +1,18 @@
 # Bedrock Addon Example Pack: Custom Pot
 This example bedrock addon provides a "red" variant to the vanilla "Flower Pot"
 
+This version has a generic "DisplayItem" class for the items to be attached to
+and supports multiple instances of the "DisplayItem" class.
+
 # Crafting
 To craft the example pot you can use a vanilla flower pot and a piece of string.
 
 # Featues
-- Placing an item into the pot
+- Placing an item into the DisplayItem
 - hot swapping the item in a pot
 - removing current item from the pot (using an open hand)
 
-# Items Supported in Custom Pot
+# Items Supported in Custom Pot (main.js)
 - "minecraft:azalea"
 - "minecraft:flowering_azalea"
 - "minecraft:cactus"
@@ -46,8 +49,8 @@ To craft the example pot you can use a vanilla flower pot and a piece of string.
 - "minecraft:warped_roots"
 
 # Custom Component(s) used:
-- "mkt:custom_pot_on_interact"
+- "mkt:display_item_block_on_interact"
 
 ## Used for:
-- "onPlayerInteract": to place/swap/remove the item from the pot
-- "onPlayerDestroy": to drop the attached item from the pot
+- "onPlayerInteract": to place/swap/remove the item from the DisplayItem block
+- "onPlayerDestroy": to drop the attached item from the DisplayItem block

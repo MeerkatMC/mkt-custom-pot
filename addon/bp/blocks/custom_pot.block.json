@@ -9,7 +9,7 @@
 			}
 		},
 		"components": {
-			"minecraft:custom_components": [ "mkt:custom_pot_on_interact" ],
+			"minecraft:custom_components": [ "mkt:display_item_block_on_interact" ],
 			"minecraft:collision_box": {
 				"origin": [-4, 0, -4],
 				"size": [8, 8, 8]

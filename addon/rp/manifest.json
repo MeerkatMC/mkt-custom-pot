@@ -2,9 +2,9 @@
 	"format_version": 2,
 	"header": {
 		"name": "Custom Pot Example RP",
-		"description": "Custom Pot Resource Pack (v1.0.0)",
-		"uuid": "a16fad97-9104-4d6f-8e64-3bf05db9b625",
-		"version": [1, 0, 0],
+		"description": "Custom Pot Resource Pack (v1.0.1)",
+		"uuid": "89c25fb8-f524-4ae4-af20-1c8e93fbdbd1",
+		"version": [1, 0, 1],
 		"min_engine_version": [1, 21, 30]
 	},
 	"metadata": {
@@ -14,8 +14,8 @@
 		{
 			"description": "Custom Pot",
 			"type": "resources",
-			"uuid": "81810ffa-425d-4b4f-995e-6537bf789dcf",
-			"version": [1, 0, 0]
+			"uuid": "e451cc40-a6e0-4764-8e4b-ae5217844c46",
+			"version": [1, 0, 1]
 		}
 	]
 }

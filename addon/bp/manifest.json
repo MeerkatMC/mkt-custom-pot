@@ -2,9 +2,9 @@
 	"format_version": 2,
 	"header": {
 		"name": "Custom Pot Example BP",
-		"description": "Custom Pot Example BP (v1.0.0)",
-		"uuid": "ad45598e-3cee-43cb-825f-3f4f03b71e1d",
-		"version": [1, 0, 0],
+		"description": "Custom Pot Example BP (v1.0.1)",
+		"uuid": "c071d33e-5438-4453-9b2c-0eb37a7e2235",
+		"version": [1, 0, 1],
 		"min_engine_version": [1, 21, 20]
 	},
 	"metadata": {
@@ -13,23 +13,23 @@
 	"modules": [
 		{
 			"description": "Behavior",
-			"version": [1, 0, 0],
-			"uuid": "6668ec9b-98f6-40af-bf6d-ee8e5251ea5e",
+			"version": [1, 0, 1],
+			"uuid": "b700b1a4-b759-4b48-b694-91c1a60c0f4b",
 			"type": "data"
 		},
 		{
 			"description": "Script resources",
 			"language": "javascript",
 			"type": "script",
-			"uuid": "feb4b961-27d1-442d-b18a-9ce84dad75f5",
-			"version": [1, 0, 0],
+			"uuid": "4b3cd80b-8e4a-4cb6-865c-b0d3acdc4f16",
+			"version": [1, 0, 1],
 			"entry": "scripts/main.js"
 		}
 	],
 	"dependencies": [
 		{
-			"uuid": "a16fad97-9104-4d6f-8e64-3bf05db9b625",
-			"version": [1, 0, 0]
+			"uuid": "89c25fb8-f524-4ae4-af20-1c8e93fbdbd1",
+			"version": [1, 0, 1]
 		},
 		{
 			"module_name": "@minecraft/server",
